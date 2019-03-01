@@ -6,7 +6,7 @@ import {Element} from 'react-scroll';
 import Header from './components/header_footer/Header'
 import Featured from './components/featured/index';
 import TimeUntil from './components/featured/TimeUntil';
-import VenueInfo from './components/venueInfo/index';
+import Info from './components/info/index';
 import Highlights from './components/highlight/index';
 import Pricing from './components/pricing/index';
 import Location from './components/location';
@@ -20,8 +20,8 @@ class App extends Component {
         <Element name='featured'>
           <Featured/>
         </Element>
-        <Element name='venueinfo'>
-          <VenueInfo/>
+        <Element name='info'>
+          <Info/>
         </Element>
         
         <Element name='highlight'>

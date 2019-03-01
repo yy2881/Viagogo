@@ -3,7 +3,7 @@ import icon_calendar from '../../resources/images/icons/calendar.png';
 import icon_location from '../../resources/images/icons/location.png';
 import Zoom from 'react-reveal/Zoom';
 
-const VenueInfo = () => {
+const Info = () => {
     return (
         <div className='bck_black'>
             <div className='center_wrapper'>
@@ -22,8 +22,8 @@ const VenueInfo = () => {
                                     Event Date & Time
                                 </div>
                                 <div className='vn_desc'>
-                                    7 August 2017
-                                    @10.00pm
+                                    1 May 2019
+                                    @8:00pm
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const VenueInfo = () => {
                                     Event Location
                                 </div>
                                 <div className='vn_desc'>
-                                    345 Speer Street Oakland, CA 9835
+                                Prudential Center, Newark, NJ
                                     
                                 </div>
                             </div>
@@ -61,4 +61,4 @@ const VenueInfo = () => {
     );
 };
 
-export default VenueInfo;
+export default Info;
